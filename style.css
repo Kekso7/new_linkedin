@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #eaebeb;
+}
+/**************FONT***************/
+.fs-12 {
+	font-size: 12px;
+}
+
+.fs-14 {
+	font-size: 14px;
+}
+/**************COLOR***************/
+.clr-blue {
+	color: #1766c2;
+}
+
+.clr-green {
+	color: #5f9c41;
+}
+
+.clr-red {
+	color: #e16745;
+}
+
+.clr-orange {
+	color: #ab804a;
+}
+/***********BACKGROUND COLOR************/
+.bg-clr-blue {
+	background-color: #1b5289;
+}
+
+/****************/
+.navIcons {
+	font-size: 18px;
+}
+.underline {
+	text-decoration: underline;
+}
+
+.cardImg {
+	width: 70px;
+	margin-top: -30px;
+	margin-left: 65px;
+	border: 4px solid white;
+	border-radius: 100%;
+}
+
+.centerImg {
+	width: 50px;
+}
+
+.aiimg {
+	width: 70px;
+}
+
+.aiimg2 {
+	width: 50px;
+}
+.linkedinImg {
+	width: 10%;
+	height: 10%;
+}
+.wirelessImg {
+	height: 10%;
+	width: 10%;
+}
+.cursorPointer {
+	cursor: pointer;
+}
+
+.cards {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+	.cardImg {
+		margin-left: 125px;
+	}
+
+	.input-group,
+	.nav-link,
+	.dNone {
+		display: none;
+	}
+
+	.navbar-collapse {
+		justify-content: center;
+	}
+}
